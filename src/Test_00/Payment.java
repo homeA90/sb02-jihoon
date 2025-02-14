@@ -1,4 +1,4 @@
-package src.Test_01;
+package src.Test_00;
 
 public interface Payment {
     void pay(double amount);
