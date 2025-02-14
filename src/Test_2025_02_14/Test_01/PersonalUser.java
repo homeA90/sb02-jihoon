@@ -1,4 +1,4 @@
-package src.Test_01;
+package src.Test_2025_02_14.Test_01;
 
 public class PersonalUser extends User {
     private String personalEmail;
