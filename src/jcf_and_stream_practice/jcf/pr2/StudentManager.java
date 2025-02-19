@@ -1,4 +1,4 @@
-package sb02.jcf.pr2;
+package src.jcf_and_stream_practice.jcf.pr2;
 
 import java.util.*;
 

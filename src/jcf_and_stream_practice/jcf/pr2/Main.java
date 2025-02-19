@@ -1,10 +1,10 @@
-package sb02.jcf.pr2;
+package src.jcf_and_stream_practice.jcf.pr2;
 
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        StudentManager manager = new StudentManager();
+        sb02.jcf.pr2.StudentManager manager = new sb02.jcf.pr2.StudentManager();
         Scanner sc = new Scanner(System.in);
         boolean run = true;
 
@@ -31,7 +31,7 @@ public class Main {
                     int score = sc.nextInt();
                     sc.nextLine();
 
-                    Student newStudent = new Student(name, age);
+                    sb02.jcf.pr2.Student newStudent = new sb02.jcf.pr2.Student(name, age);
                     manager.addStudent(newStudent, score);
                     break;
 

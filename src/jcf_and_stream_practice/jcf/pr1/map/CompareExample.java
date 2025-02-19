@@ -1,4 +1,4 @@
-package sb02.jcf.pr1.map;
+package src.jcf_and_stream_practice.jcf.pr1.map;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -6,10 +6,10 @@ import java.util.Set;
 public class CompareExample {
 
     public static void main(String[] args) {
-        Score scoreA = new Score("score1", "Lee", 90);
-        Score scoreB = new Score("score1", "Park", 50);
+        sb02.jcf.pr1.map.Score scoreA = new sb02.jcf.pr1.map.Score("score1", "Lee", 90);
+        sb02.jcf.pr1.map.Score scoreB = new sb02.jcf.pr1.map.Score("score1", "Park", 50);
 
-        Set<Score> scoreSet = new HashSet<>();
+        Set<sb02.jcf.pr1.map.Score> scoreSet = new HashSet<>();
         scoreSet.add(scoreA);
         scoreSet.add(scoreB);
         scoreSet.remove(scoreB);

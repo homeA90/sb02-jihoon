@@ -1,5 +1,4 @@
-package sb02.jcf.pr1.list;
-
+package src.jcf_and_stream_practice.jcf.pr1.list;
 import java.util.LinkedList;
 import java.util.List;
 

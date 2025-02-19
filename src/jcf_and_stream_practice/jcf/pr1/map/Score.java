@@ -1,4 +1,4 @@
-package sb02.jcf.pr1.map;
+package src.jcf_and_stream_practice.jcf.pr1.map;
 
 import java.util.Objects;
 

@@ -1,4 +1,4 @@
-package sb02.jcf.pr1.set;
+package src.jcf_and_stream_practice.jcf.pr1.set;
 
 import java.util.HashSet;
 import java.util.Set;
