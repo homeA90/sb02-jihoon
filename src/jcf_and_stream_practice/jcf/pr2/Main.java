@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        sb02.jcf.pr2.StudentManager manager = new sb02.jcf.pr2.StudentManager();
+        StudentManager manager = new StudentManager();
         Scanner sc = new Scanner(System.in);
         boolean run = true;
 
@@ -31,7 +31,7 @@ public class Main {
                     int score = sc.nextInt();
                     sc.nextLine();
 
-                    sb02.jcf.pr2.Student newStudent = new sb02.jcf.pr2.Student(name, age);
+                    Student newStudent = new Student(name, age);
                     manager.addStudent(newStudent, score);
                     break;
 
